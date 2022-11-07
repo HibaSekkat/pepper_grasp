@@ -19,7 +19,7 @@ class pepper(model_wrapper.ModelWrapper, model_with_file.ModelWithFile):
     __DEFAULT_XACRO_FILE = path.join(
         get_package_share_directory(__DESCRIPTION_PACKAGE),
         "urdf",
-        ROBOT_MODEL_NAME + ".urdf.xacro",
+        ROBOT_MODEL_NAME + ".xacro",
     )
     __DEFAULT_XACRO_MAPPINGS: Dict[str, any] = {
         "name": ROBOT_MODEL_NAME,

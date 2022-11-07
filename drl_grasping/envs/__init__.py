@@ -44,7 +44,7 @@ else:
 # Default robot model to use in the tasks where robot can be static
 DRL_GRASPING_ROBOT_MODEL: str = "pepper"
 # Default robot model to use in the tasks where robot needs to be mobile
-DRL_GRASPING_ROBOT_MODEL_MOBILE: str = "lunalab_summit_xl_gen"
+DRL_GRASPING_ROBOT_MODEL_MOBILE: str = "pepper"
 
 ######################
 # Datasets and paths #
@@ -605,7 +605,7 @@ GRASP_PLANETARY_KWARGS_OCTREE: Dict[str, any] = {
 GRASP_PLANETARY_KWARGS_SIM: Dict[str, any] = {
     "physics_rate": 200.0,
     "real_time_factor": float(np.finfo(np.float32).max),
-    "world": path.join(DRL_GRASPING_WORLDS_DIR, "lunar.sdf"),
+    "world": path.join(DRL_GRASPING_WORLDS_DIR, "default.sdf"),
 }
 GRASP_PLANETARY_RANDOMIZER: str = (
     "drl_grasping.envs.randomizers:ManipulationGazeboEnvRandomizer"
