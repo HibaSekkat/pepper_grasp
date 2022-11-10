@@ -1,6 +1,6 @@
 from gym_ignition.scenario.model_wrapper import ModelWrapper
 
-from .pepper import pepper
+from .pepper_robot import pepper_robot
 from .lunalab_summit_xl_gen import LunalabSummitXlGen
 from .panda import Panda
 
@@ -14,5 +14,5 @@ def get_robot_model_class(robot_model: str) -> ModelWrapper:
         return Panda
     elif "lunalab_summit_xl_gen" == robot_model:
         return LunalabSummitXlGen
-    elif "pepper" == robot_model:
-        return pepper
+    elif "pepper_robot" == robot_model:
+        return pepper_robot

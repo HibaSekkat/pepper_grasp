@@ -10,7 +10,7 @@ from scenario import gazebo as scenario_gazebo
 from drl_grasping.envs.models.utils import xacro2sdf
 
 
-class pepper(model_wrapper.ModelWrapper, model_with_file.ModelWithFile):
+class pepper_robot(model_wrapper.ModelWrapper, model_with_file.ModelWithFile):
 
     ROBOT_MODEL_NAME: str = "pepper_robot"
     DEFAULT_PREFIX: str = "pepper_robot_"

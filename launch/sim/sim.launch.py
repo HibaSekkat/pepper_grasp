@@ -34,7 +34,7 @@ def generate_launch_description() -> LaunchDescription:
             "__prefix",
             default_value="pepper_",
             description="Robot-specific prefix for pepper.",
-            condition=LaunchConfigurationEquals("robot_model", "pepper"),
+            condition=LaunchConfigurationEquals("robot_model", "pepper_robot"),
         ),
     )
     declared_arguments.append(
@@ -42,7 +42,7 @@ def generate_launch_description() -> LaunchDescription:
             "__prefix",
             default_value=LaunchConfiguration("prefix"),
             description="Robot-specific prefix for all other robots.",
-            condition=LaunchConfigurationNotEquals("robot_model", "pepper"),
+            condition=LaunchConfigurationNotEquals("robot_model", "pepper_robot"),
         ),
     )
     prefix = LaunchConfiguration("__prefix")
@@ -136,7 +136,7 @@ def generate_launch_description() -> LaunchDescription:
                 log_level,
             ],
             parameters=[{"use_sim_time": use_sim_time}],
-            condition=LaunchConfigurationEquals("robot_model", "pepper"),
+            condition=LaunchConfigurationEquals("robot_model", "pepper_robot"),
         ),
     ]
 

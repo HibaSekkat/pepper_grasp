@@ -40,11 +40,11 @@ else:
 ###################
 # Robot Specifics #
 ###################
-## Fully supported robots: "pepper", "lunalab_summit_xl_gen" (mobile)
+## Fully supported robots: "pepper_robot", "lunalab_summit_xl_gen" (mobile)
 # Default robot model to use in the tasks where robot can be static
-DRL_GRASPING_ROBOT_MODEL: str = "pepper"
+DRL_GRASPING_ROBOT_MODEL: str = "pepper_robot"
 # Default robot model to use in the tasks where robot needs to be mobile
-DRL_GRASPING_ROBOT_MODEL_MOBILE: str = "pepper"
+DRL_GRASPING_ROBOT_MODEL_MOBILE: str = "pepper_robot"
 
 ######################
 # Datasets and paths #
