@@ -32,8 +32,8 @@ def generate_launch_description() -> LaunchDescription:
     declared_arguments.append(
         DeclareLaunchArgument(
             "__prefix",
-            default_value="pepper_",
-            description="Robot-specific prefix for pepper.",
+            default_value="pepper_robot",
+            description="Robot-specific prefix for pepper_robot.",
             condition=LaunchConfigurationEquals("robot_model", "pepper_robot"),
         ),
     )
@@ -74,7 +74,7 @@ def generate_launch_description() -> LaunchDescription:
             PythonLaunchDescriptionSource(
                 PathJoinSubstitution(
                     [
-                        FindPackageShare("lunalab_summit_xl_gen_ign"),
+                        FindPackageShare("pepper_robot_ign"),
                         "launch",
                         "bridge.launch.py",
                     ]
@@ -87,7 +87,7 @@ def generate_launch_description() -> LaunchDescription:
                 ("use_sim_time", use_sim_time),
                 ("log_level", log_level),
             ],
-            condition=LaunchConfigurationEquals("robot_model", "lunalab_summit_xl_gen"),
+            condition=LaunchConfigurationEquals("robot_model", "pepper_robot"),
         ),
     ]
 
@@ -106,7 +106,7 @@ def generate_launch_description() -> LaunchDescription:
             ],
             parameters=[{"use_sim_time": use_sim_time}],
             condition=LaunchConfigurationNotEquals(
-                "robot_model", "lunalab_summit_xl_gen"
+                "robot_model", "pepper_robot"
             ),
         ),
         # Static tf for base link of pepper
@@ -171,8 +171,8 @@ def generate_declared_arguments() -> List[DeclareLaunchArgument]:
         ),
         DeclareLaunchArgument(
             "robot_model",
-            default_value="lunalab_summit_xl_gen",
-            description="Name of the robot to use. Supported options are: 'pepper' and 'lunalab_summit_xl_gen'.",
+            default_value="pepper_robot",
+            description="Name of the robot to use. Supported options are: 'pepper' and 'pepper_robot'.",
         ),
         DeclareLaunchArgument(
             "robot_name",
