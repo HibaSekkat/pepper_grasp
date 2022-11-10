@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8bc88f3-ecd8-4598-b6bb-a963befb2906" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/drl_grasping/envs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/drl_grasping/envs/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drl_grasping/envs/models/robots/pepper.py" beforeDir="false" afterPath="$PROJECT_DIR$/drl_grasping/envs/models/robots/pepper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ex_evaluate.bash" beforeDir="false" afterPath="$PROJECT_DIR$/examples/ex_evaluate.bash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ex_evaluate_pretrained_agent.bash" beforeDir="false" afterPath="$PROJECT_DIR$/examples/ex_evaluate_pretrained_agent.bash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ex_evaluate_real.bash" beforeDir="false" afterPath="$PROJECT_DIR$/examples/ex_evaluate_real.bash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ex_optimize.bash" beforeDir="false" afterPath="$PROJECT_DIR$/examples/ex_optimize.bash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ex_random_agent.bash" beforeDir="false" afterPath="$PROJECT_DIR$/examples/ex_random_agent.bash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ex_train.bash" beforeDir="false" afterPath="$PROJECT_DIR$/examples/ex_train.bash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ex_train_dreamerv2.bash" beforeDir="false" afterPath="$PROJECT_DIR$/examples/ex_train_dreamerv2.bash" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
