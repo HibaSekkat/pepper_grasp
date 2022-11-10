@@ -12,8 +12,8 @@ from drl_grasping.envs.models.utils import xacro2sdf
 
 class pepper(model_wrapper.ModelWrapper, model_with_file.ModelWithFile):
 
-    ROBOT_MODEL_NAME: str = "pepper"
-    DEFAULT_PREFIX: str = "pepper_"
+    ROBOT_MODEL_NAME: str = "pepper_robot"
+    DEFAULT_PREFIX: str = "pepper_robot_"
 
     __DESCRIPTION_PACKAGE = ROBOT_MODEL_NAME + "_description"
     __DEFAULT_XACRO_FILE = path.join(
@@ -49,10 +49,10 @@ class pepper(model_wrapper.ModelWrapper, model_with_file.ModelWithFile):
         0.0,
     )
     OPEN_GRIPPER_JOINT_POSITIONS: List[float] = (
-        0.98,
+       0.98, 0.98, 0.98, 0.98, 0.98,
     )
     CLOSED_GRIPPER_JOINT_POSITIONS: List[float] = (
-        0.02,
+        0.02, 0.02, 0.02, 0.02, 0.02,
     )
     DEFAULT_GRIPPER_JOINT_POSITIONS: List[float] = OPEN_GRIPPER_JOINT_POSITIONS
 

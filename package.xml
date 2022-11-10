@@ -14,6 +14,9 @@
   <exec_depend>lunalab_summit_xl_gen_description</exec_depend>
   <exec_depend>lunalab_summit_xl_gen_ign</exec_depend>
   <exec_depend>lunalab_summit_xl_gen_moveit_config</exec_depend>
+  <exec_depend>pepper_robot_description</exec_depend>
+  <exec_depend>pepper_robot_ign</exec_depend>
+  <exec_depend>pepper_robot_moveit_config</exec_depend> 
   <exec_depend>moveit</exec_depend>
   <exec_depend>panda_description</exec_depend>
   <exec_depend>panda_moveit_config</exec_depend>
