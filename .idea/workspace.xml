@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8bc88f3-ecd8-4598-b6bb-a963befb2906" name="Changes" comment="changed all to pepper_robot">
-      <change beforePath="$PROJECT_DIR$/drl_grasping.repos" beforeDir="false" afterPath="$PROJECT_DIR$/drl_grasping.repos" afterDir="false" />
+    <list default="true" id="b8bc88f3-ecd8-4598-b6bb-a963befb2906" name="Changes" comment="add repos">
+      <change afterPath="$PROJECT_DIR$/.docker/build.bash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/devel.bash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/host/install_docker_with_nvidia.bash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/internal/.bash_aliases" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/internal/cyclonedds.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/internal/entrypoint.bash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/internal/setup_symlinks.bash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/run.bash" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +65,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668097958540</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add repos">
+      <created>1668098187280</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668098187280</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add repos">
+      <created>1668098645435</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668098645435</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,6 +97,7 @@
     <MESSAGE value="changed ROBOT_MODEL=&quot;pepper&quot;" />
     <MESSAGE value="changed ROBOT_MODEL=&quot;pepper&quot; for second time" />
     <MESSAGE value="changed all to pepper_robot" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed all to pepper_robot" />
+    <MESSAGE value="add repos" />
+    <option name="LAST_COMMIT_MESSAGE" value="add repos" />
   </component>
 </project>
