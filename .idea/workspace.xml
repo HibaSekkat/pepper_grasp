@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8bc88f3-ecd8-4598-b6bb-a963befb2906" name="Changes" comment="add repos">
-      <change afterPath="$PROJECT_DIR$/.docker/build.bash" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.docker/devel.bash" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.docker/host/install_docker_with_nvidia.bash" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.docker/internal/.bash_aliases" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.docker/internal/cyclonedds.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.docker/internal/entrypoint.bash" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.docker/internal/setup_symlinks.bash" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.docker/run.bash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rviz/drl_grasping.rviz" beforeDir="false" afterPath="$PROJECT_DIR$/rviz/drl_grasping.rviz" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +73,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668098645435</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add repos">
+      <created>1668098655917</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668098655917</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add repos">
+      <created>1668098917112</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668098917112</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
