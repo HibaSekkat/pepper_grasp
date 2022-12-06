@@ -1,4 +1,3 @@
-Panels:
 - Class: rviz_common/Displays
   Help Height: 78
   Name: Displays
@@ -23,7 +22,7 @@ Panels:
   SyncMode: 2
   SyncSource: Image
 Visualization Manager:
-  Class: ''
+  Class: ' '
   Displays:
   - Alpha: 0.5
     Cell Size: 1
@@ -723,63 +722,62 @@ Visualization Manager:
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: base_footprint
-    Frame Rate: 30
+       Frame Rate: 30
   Name: root
   Tools:
-  - Class: rviz_default_plugins/Interact
-    Hide Inactive Objects: true
-  - Class: rviz_default_plugins/MoveCamera
-  - Class: rviz_default_plugins/Select
-  - Class: rviz_default_plugins/FocusCamera
-  - Class: rviz_default_plugins/Measure
-    Line color: 128; 128; 0
-  - Class: rviz_default_plugins/SetInitialPose
-    Topic:
-      Depth: 5
-      Durability Policy: Volatile
-      History Policy: Keep Last
-      Reliability Policy: Best Effort
-      Value: /initialpose
-  - Class: rviz_default_plugins/SetGoal
-    Topic:
-      Depth: 5
-      Durability Policy: Volatile
-      History Policy: Keep Last
-      Reliability Policy: Best Effort
-      Value: /move_base_simple/goal
-  - Class: rviz_default_plugins/PublishPoint
-    Single click: true
-    Topic:
-      Depth: 5
-      Durability Policy: Volatile
-      History Policy: Keep Last
-      Reliability Policy: Best Effort
-      Value: /clicked_point
-  Transformation:
-    Current:
-      Class: rviz_default_plugins/TF
-  Value: true
-  Views:
-    Current:
-      Class: rviz_default_plugins/Orbit
-      Distance: 7.79932
-      Enable Stereo Rendering:
-        Stereo Eye Separation: 0.06
-        Stereo Focal Distance: 1
-        Swap Stereo Eyes: false
-        Value: false
-      Focal Point:
-        X: 1.45991
-        Y: 0.0114352
-        Z: 0.394454
-      Name: Current View
-      Near Clip Distance: 0.01
-      Pitch: 0.370398
-      Target Frame: <Fixed Frame>
-      Value: Orbit (rviz)
-      Yaw: 2.9704
-    Saved: null
+     - Class: rviz_default_plugins/Interact
+       Hide Inactive Objects: true
+     - Class: rviz_default_plugins/MoveCamera
+     - Class: rviz_default_plugins/Select
+     - Class: rviz_default_plugins/FocusCamera
+     - Class: rviz_default_plugins/Measure
+       Line color: 128; 128; 0
+     - Class: rviz_default_plugins/SetInitialPose
+       Topic:
+       Depth: 5
+       Durability Policy: Volatile
+       History Policy: Keep Last
+       Reliability Policy: Best Effort
+       Value: /initialpose
+      - Class: rviz_default_plugins/SetGoal
+       Topic:
+       Depth: 5
+       Durability Policy: Volatile
+       History Policy: Keep Last
+       Reliability Policy: Best Effort
+       Value: /move_base_simple/goal
+      - Class: rviz_default_plugins/PublishPoint
+        Single click: true
+        Topic:
+			Depth: 5
+			Durability Policy: Volatile
+			History Policy: Keep Last
+			Reliability Policy: Best Effort
+			Value: /clicked_point
+		Transformation:
+			Current:
+				Class: rviz_default_plugins/TF
+		Value: true
+		Views:
+			Current:
+				Class: rviz_default_plugins/Orbit
+				Distance: 7.79932
+				Enable Stereo Rendering:
+					Stereo Eye Separation: 0.06
+					Stereo Focal Distance: 1
+					Swap Stereo Eyes: false
+					Value: false
+				Focal Point:
+					X: 1.45991
+					Y: 0.0114352
+					Z: 0.394454
+				Name: Current View
+				 Near Clip Distance: 0.01
+				Pitch: 0.370398
+				Target Frame: <Fixed Frame>
+				Value: Orbit (rviz)
+				Yaw: 2.9704
+			Saved: null
 Window Geometry:
   Displays:
     collapsed: false
