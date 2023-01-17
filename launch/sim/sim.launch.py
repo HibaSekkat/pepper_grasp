@@ -109,7 +109,7 @@ def generate_launch_description() -> LaunchDescription:
                 "robot_model", "pepper_robot"
             ),
         ),
-        # Static tf for base link of pepper
+        # Static tf for base link of pepper_robot
         Node(
             package="tf2_ros",
             executable="static_transform_publisher",
@@ -172,7 +172,7 @@ def generate_declared_arguments() -> List[DeclareLaunchArgument]:
         DeclareLaunchArgument(
             "robot_model",
             default_value="pepper_robot",
-            description="Name of the robot to use. Supported options are: 'pepper' and 'pepper_robot'.",
+            description="Name of the robot to use. Supported options are: 'pepper_robot' and 'pepper_robot'.",
         ),
         DeclareLaunchArgument(
             "robot_name",
